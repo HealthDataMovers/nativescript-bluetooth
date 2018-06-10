@@ -1,0 +1,11 @@
+{
+    "name": "nativescript-bluetooth-custom",
+    "version": "0.0.1",
+    "description": "Custom fork of nativescript-bluetooth",
+    "nativescript": {
+      "platforms": {
+        "ios": "4.0.1",
+        "android": "4.0.1"
+      }
+    }
+  }
