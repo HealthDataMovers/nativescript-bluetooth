@@ -260,7 +260,8 @@ export class CBPeripheralDelegateImpl extends NSObject implements CBPeripheralDe
     );
     if (this._onWritePromise) {
       this._onWritePromise({
-        characteristicUUID: characteristic.UUID.UUIDString
+        characteristicUUID: characteristic.UUID.UUIDString,
+        error: error
       });
     } else {
       CLog(
