@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-bluetooth",
+  "name": "nativescript-bluetooth-custom",
   "version": "2.0.0",
   "description": "Connect to and interact with Bluetooth LE peripherals",
   "main": "bluetooth",
